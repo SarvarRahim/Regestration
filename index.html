@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freebies</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize-min.css">
+    <link rel="stylesheet" href="css/style-min.css">
+</head>
+<body>
+    <main class="registration">
+        <div class="container">
+            <div class="reg__grow">
+        <div class="reg__admin">
+            <img class="user-logo" src="img/logo-user.svg" alt="icon user" width="120" height="120">
+            <h1p class="reg__title">Let’s get you set up</h1p>
+            <pp class="reg__text">Itshould only take a couple of minutes to pair with your watch</pp>
+        </div>
+
+        <div class="create__reg">
+            <form class="reg-form" action="reg">
+                <div class="name__input">
+                <p class="names__reg">Name</p>
+                    <input class="reg-input" type="text" name="name" id="name" placeholder="Name">
+                </div>
+
+            <div class="gendeer">
+                <p class="names__reg">Gender</p>
+                <label class="gender__title">Male
+                    <input class="radiio" type="radio" name="gender" value="male">
+                </label>
+                <label class="gender__title">Female
+                    <input class="radiio" type="radio" name="gender" value="female">
+                </label>
+            </div>
+
+            <div class="reg-in-site">
+                <p class="names__reg">Date of Brith</p>
+                    <input class="reg-input" type="date" name="date" id="reg_date" value="01/01/2018" min="01/01/1880" max="01/12/2050">
+                    </div>
+                    <div class="reg-in-site">
+                <p class="names__reg">Email</p>
+                    <input class="reg-input" type="email" name="eamil" id="email" placeholder="Email">
+                    </form>
+
+                <div class="reg-in-site">
+                <p class="names__reg">Mobile</p>
+                    <input class="reg-input" type="tel" name="phone" id="phone" placeholder="+99899 123 45 67">
+                </div>
+                <div class="reg-in-site">
+                <p class="names__reg">Customer ID</p>
+                    <input class="reg-input" type="text" name="custom-id" id="id" placeholder="576802-ERD0348 45">
+                </div>
+            </div>
+
+            <div class="membership">
+           <p class="names__reg">Memberiship</p>
+                <label class="card_choose">Classic
+                    <input  type="radio" name="card" id="card-btn" value="card-classic">
+                </label>
+                <label class="card_choose">card-silver
+                    <input type="radio" name="card" id="card-btn" value="card-silver">
+                </label>
+                <label class="card_choose">Gold
+                    <input type="radio" name="card" id="card-btn" value="card-gold">
+                </label>
+            </div>
+
+            <div class="buttons">
+                <button class="btn"
+                 type="button">Cancel</button>
+                <button class="btn btn-green" type="submit">Save</button>
+            </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,227 @@
+:root {
+    --main-color: #FFD500;
+    --text-color: #373D40;
+    --heading-font-stack: "Raleway", 'Arial', sans-serif;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.woff2") format("woff2"),
+        url("../fonts/Raleway-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
+        url("../fonts/Raleway-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Light.woff2") format("woff2"),
+        url("../fonts/Raleway-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", 'Arial', sans-serif;
+}
+
+.registration {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.registration {
+    display: flex;
+    padding: 77px;
+}
+
+.reg__grow {
+    display: flex;
+}
+
+.reg__admin {
+    width: 276px;
+    padding: 80px 50px 60px 50px;
+    background-color: var(--main-color);
+    border-radius: 21.25px 0px 0px 21.25px;
+}
+
+.user-logo {
+    margin-left: 24px;
+}
+
+.reg__title {
+    width: 170px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--heading-font-stack);
+    margin-top: 57px;
+}
+
+.reg__text {
+    width: 175px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: block;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.reg__text::after {
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/icon-next.svg');
+    margin-top: 38px;
+}
+
+.create__reg {
+    width: 680px;
+    left: 0px;
+    top: 0px;
+    padding: 54px 74px;
+    background: #FFFFFF;
+    border-radius: 0.25px 21px 21px 0px;
+}
+
+.dsp-flx {
+    display: flex;
+}
+
+.names__reg {
+    width: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.4089px;
+    line-height: 9px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+input {
+    font-style: normal;
+font-weight: 500;
+font-size: 7.4089px;
+line-height: 9px;
+display: flex;
+align-items: flex-end;
+color: #373D40;
+}
+
+.reg-input {
+    width: 190.44px;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    background: rgba(245, 248, 249, 0.3);
+    border: 0.586985px solid #CAD7DD;
+    box-sizing: border-box;
+    border-radius: 2.64604px;
+    margin-bottom: 10px;
+}
+
+.gendeer {
+    display: flex;
+    margin-top: 10px;
+}
+
+.gender__title {
+    width: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.4089px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #B1BFCD;
+}
+
+.radiio {
+    width: 26px;
+    left: 67.14px;
+    top: 37.43px;
+    background: #F5F8F9;
+}
+
+.membership {
+    display: flex;
+    margin-bottom: 41px;
+}
+
+.card_choose {
+    width: 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.4089px;
+    line-height: 9px;
+    display: flex;
+    align-items: center;
+    color: #373D40;
+    margin-left: 25px;
+}
+
+.btn {
+    width: 79px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #373D40;
+    padding: 8px 25px;
+    background: #F5F8F9;
+    border-radius: 2.64604px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-green {
+    background: #60E6C5;
+    border-radius: 2.64604px;
+}
+
